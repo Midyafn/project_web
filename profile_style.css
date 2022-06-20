@@ -1,0 +1,112 @@
+
+/*url font*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Quattrocento+Sans:ital@0;1&family=Rubik:wght@300;400&display=swap');
+
+.jumbotron-1 {
+    background-color: #013e47;
+    padding: 5px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jumbotron-2 {
+    background-color: #badeda;
+    padding: 50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*pake class=image-profile buat styling profile, images buat yg lain*/
+.images-profile {
+    width: 120px;
+    border-radius: 70%;
+}
+.images {
+    width: 60px;
+    border-radius: 10%;
+}
+
+/*text styling*/
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    color: #badeda;
+}
+
+h3 {
+    font-family:'Quattrocento', sans-serif;
+    font-size: 30px;
+    color: #013e47;
+    font-weight: 500;
+    font-style: italic;
+}
+
+h2 {
+    font-family:'Arimo', sans-serif;
+    font-size: 40px;
+    color: #015165;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 24px;
+    font-family:'Arimo', sans-serif;
+    line-height: 30px;
+    font-style: bold;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+p {
+    font-size: 18px;
+    font-family:'Arimo', sans-serif;
+    line-height: 30px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+/*header, main, footer*/
+header{
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+footer {
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #badeda;
+}
+
+/*penerapan float pada content dan aside biar kebagi*/
+aside {
+    width: 25%;
+    height: 50%;
+    padding: 10px;
+    
+    float: right;
+}
+
+* {
+    box-sizing: border-box;
+ }
+
+.left-content {
+    width: 75%;
+    height: 100%;
+    
+    float: left;
+}
+
+/*bagi footer*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
